@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
-  console.log(req.body);
+  console.log(req.body);   
 })
 
 app.listen(3000, function () {  
